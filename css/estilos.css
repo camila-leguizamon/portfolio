@@ -177,6 +177,7 @@ main {
 
 #sobre-mi footer {
     color: white;
+    
 }
 
 #sobre-mi footer a {
@@ -203,6 +204,7 @@ main {
 .foto-perfil{
     border-radius: 600px;
     height: 300px;
+    margin: 20px;
 }
 
 .proyecto {
@@ -285,6 +287,22 @@ main {
 #experiencia h5{
     color: #6A6A6A;
     font-size: 14px;
+}
+#formacion h2, h4{
+    color: #E20000;
+}
+.logogris {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+     max-width: 100%;
+    -webkit-filter: grayscale(100%);
+   
+}
+.logogris:hover {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
 }
 #idiomas .card-idioma{
     border-radius: 15px;
